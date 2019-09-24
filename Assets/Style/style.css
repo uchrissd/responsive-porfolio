@@ -1,0 +1,180 @@
+/**
+* CSS styling for web development portfolio site
+**/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none !important;
+  color: lightgray;
+}
+
+.name a {
+  color: white !important;
+}
+
+body {
+  font-size: 24px;
+  line-height: 32px;
+  background-image: url("../images/white-waves.png");
+}
+
+section {
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+p {
+  /* margin-bottom: 20px; */
+  font-size: 18px;
+  line-height: 28px;
+  font-family: sans-serif;
+  color: #777777;
+}
+
+img {
+  float: left;
+  padding: 10px;
+}
+
+footer {
+  padding: 20px;
+  clear: both;
+  background: #666666;
+  border-top: 10px solid #4aaaa5;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  bottom: 0 !important;
+  width: 100%;
+  position: absolute;
+}
+
+.main-container {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.name,
+.contact,
+.portfolio,
+.about {
+  padding: 20px 10px;
+}
+
+.contact,
+.portfolio,
+.about {
+  font-family: sans-serif;
+}
+
+.name {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: white !important;
+  background-color: #4aaaa5;
+}
+
+.menu {
+  border: 1px solid #fff;
+  background-color: white;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid #dddddd;
+}
+.options {
+  display: flex;
+  justify-content: space-around;
+  color: lightgray;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wrapper {
+  width: 960px;
+  background: #ffffff;
+  margin: 5% auto;
+  border: 1px solid #dddddd;
+  border-width: 1px;
+}
+
+.container {
+  position: relative;
+}
+
+.section-line {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #dddddd;
+  border-width: 1px;
+}
+
+form {
+  color: lightgray;
+  font-family: sans-serif;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+button {
+  background-color: #4aaaa5;
+  font-family: sans-serif;
+  color: white;
+  border: solid;
+  padding: 10px;
+}
+
+textarea {
+  height: 100px;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+.portfolio-box {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 500px;
+}
+
+.portfolio-image {
+  position: relative;
+}
+
+.portfolio-image p {
+  position: absolute;
+  background-color: #4aaaa5;
+  color: white;
+  bottom: 15px;
+  width: 90%;
+  right: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-family: serif;
+  padding: 5px;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
