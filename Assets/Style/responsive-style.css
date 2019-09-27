@@ -1,0 +1,18 @@
+@media only screen and (max-width: 650px) {
+  .item {
+    width: 100% !important;
+  }
+}
+
+.name {
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Times New Roman";
+}
+
+.pages {
+  color: lightgray;
+  font-family: sans-serif;
+}

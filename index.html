@@ -16,32 +16,23 @@
     <title>Web Developer Responsive Portfolio</title>
   </head>
   <body>
-    <div style=" min-width: 500px; border-bottom: 3px lightgray solid;">
+    <div style=" border-bottom: 3px lightgray solid;">
       <div class="container">
         <header>
           <nav
             style="max-height: 80px; padding: 0 !important"
-            class="navbar navbar-expand-lg"
+            class="hidden-sm-down navbar navbar-expand-lg"
           >
             <div
               style="background-color:#4aaaa5;padding: 0 15px;height: 80px !important;line-height: 80px;"
               class="navbar-brand"
             >
               <a class="text-white p-2" href="#">Christopher Underwood</a>
-            </div>
-            <!-- <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
+        </div>
               <span class="navbar-toggler-icon"></span>
-            </button> -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
+            </button>
+            <div class="collapse navbar-collapse d-flex" id="navbarNav">
+              <ul class="navbar-nav ml-auto" style="color:lightgray">
                 <li class="nav-item active">
                   <a class="nav-link" href="#"
                     >About <span class="sr-only">(current)</span></a
@@ -56,6 +47,9 @@
               </ul>
             </div>
           </nav>
+          <div class="small-nav hidden-md-up visible">
+              ELMA
+          </div>
         </header>
       </div>
     </div>
