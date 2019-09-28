@@ -21,50 +21,25 @@
     <title>Web Developer Responsive Portfolio</title>
   </head>
   <body>
-    <div style=" border-bottom: 3px lightgray solid;">
-      <div class="container">
-        <header>
-          <nav
-            style="max-height: 80px; padding: 0 !important"
-            class="hidden-sm-down navbar navbar-expand-lg"
-          >
-            <div
-              style="background-color:#4aaaa5;padding: 0 15px;height: 80px !important;line-height: 80px;"
-              class="navbar-brand"
-            >
-              <a class="text-white p-2" href="#">Christopher Underwood</a>
-        </div>
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex" id="navbarNav">
-              <ul class="navbar-nav ml-auto" style="color:lightgray">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#"
-                    >About <span class="sr-only">(current)</span></a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-          <div class="small-nav hidden-md-up visible">
-              
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="item name">
+            <p>Christopher Underwood</p>
           </div>
-        </header>
-      </div>
-    </div>
+          <div class="d-flex item pages">
+            <div>About |</div>
+            <div>Portfolio |</div>
+            <div>Contact |</div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
     <!--This is the main content container-->
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0 background-custom">
       <!--About Me row-->
-      <div
-        class="row justify-content-center d-flex align-items-center m-0"
-        style="background:url(assets/Images/white-waves.png);"
-      >
+      <div class="row  justify-content-center d-flex align-items-center m-0">
         <main class="col-8 m-5 border" style="  background:#fff;">
           <section class="m-5">
             <h1 style="color: #4aaaa5;">About Me</h1>
@@ -93,7 +68,7 @@
         </main>
       </div>
       <!-- Footer -->
-    <footer class="page-footer footer">
+      <footer class="page-footer footer">
         <div class="footer-copyright text-center">
           <p>© 2019 Copyright: Chrisopher Underwood</p>
         </div>
