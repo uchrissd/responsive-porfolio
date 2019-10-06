@@ -14,9 +14,9 @@ Standard HTML/CSS and Bootstrap.
 
 **Screenshots**
 
-![About page screenshot](assets\images\web-dev-about.jpg)
-![Portfolio page screenshot](assets\images\web-dev-portfolio.jpg)
-![Contact page screenshot](assets\images\web-dev-contact.jpg)
+![About page screenshot](assets/images/web-dev-about.jpg)
+![Portfolio page screenshot](assets/images/web-dev-portfolio.jpg)
+![Contact page screenshot](assets/images/web-dev-contact.jpg)
 
 **Code Example**
 
@@ -45,4 +45,4 @@ Here is an example of how I used a mixture of Bootstrap and my own CSS style for
 
 **Installation**
 
-No installation necessary. Project is hosted here: https://uchrissd.github.io/chrisunderwood.github.io/
+No installation necessary.
